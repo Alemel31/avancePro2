@@ -1,0 +1,82 @@
+clase 3 19/08/25
+CONSTRUCTORES Y SOBRE CARGA DE CONSTRUCTORES
+this  es la referencia al atributo que pertenece a la
+depende a los atributos que le da es a los constructores que podemos dar
+Modificadores de acceso
+            clase   | package | subclase | otros
+-public        X        X           X       X
+-protected     X        X           X
+-default       X        X
+-private       X
+
+si estas fuera de su misma clase no puedes acceder PRIVATE, lo que se puede ayudar a acceder son
+los get y set
+public int GET#### (){} -> Me ayuda a obtener  // debes tener el mismo valor (int, String, boolean, set)
+
+                        public String getNombre() {
+                                return nombre;
+                            }
+
+public void SET #### (String ######){}-> Me permite cambiar el valor //
+
+                        public void setNombre(String nombre) {
+                                this.nombre = nombre;
+                            }
+
+Toda variable tipo STATIC le pertenece a la clase no a cada objeto
+
+
+Class 7 09/02/25
+ASOCIACION
+Una clase esta haciendo uso de otra clase
+Una clase usa otra clase
+Yo te uso a ti
+
+AGREGACION   --> Relacion Debil
+puede existir o dejar de existir sin ningun problema
+Lo voy a tener, lo voy a contener
+Una clase tiene difentes tipos de informacion, pero los contiene
+Ej La U tiene estudiantes
+    debe existir antes los estudiantes antes de agregarlo a la U
+    Es una agrupacion de objetos pero antes de contenerlo ya debe existir antes
+
+COMPOSICION  --> Relacion fuerte
+Si la clase contenedora desaparece tambien desaparecen los otros objetos
+Ej El vehiculo y los elementos que lo componen es
+    rueda
+    transmision
+    motor
+  Pedidos Ya
+
+ Class 8 09/05/25
+ En el if
+ >= cuando estoy preguntando algo
+ += cuando estas aumentando
+ Condicionales
+ IF - boolean
+ ! aaaa
+
+ ABSTRACCION
+ CLASS ABSTRACT
+ Cuando tengas algo muy generico puedes ponerle abstract
+ solo se puede utilizar cuando es algo generico
+
+ POLIMORFISMO
+ Cuando un objeto se puede comportar de diferente manera
+ Ej persoje se puede comportar de diferentes formas
+
+ INTERFAZ
+ Es como un contrato que haces o acciones obligatorias
+ Es un conjunto de metodos no se sabe como se hacen pero te obligan a usarlo
+ Ej De la clase de pro2
+    - haber pasado pro1
+    - pagar la mensualidad del semestre actual
+
+Crear programa y debe contener
+- abstraccion
+- herencia
+- interfaz
+
+Vamos a tener practico para el martes
+es para practicar el tema de relacion entre clases
+Se va revisar ese dia uno por uno
