@@ -1,0 +1,19 @@
+S
+Ctrl + Alt + l --> ayuda a corregir los errores de alineacion de la hoja
+
+Sobreescritura
+La sobreescritura de metodos ocurre cuando una subclase define un metodo
+
+@Override
+si le aplicas y cuando te equivocas en un error te resalta que esta mal
+si no le pones piensa que es otro metodo y no lo tomara
+
+Final
+Abstract  NO SE PUEDE hacer sobreescritura
+Static
+
+To String
+Define una clase y te devuelve la informacion que quieres obtener
+
+Object INSTANCE OF
+puedo crearlo sin necesidad de crearlos como variables sino ya estan con Object
