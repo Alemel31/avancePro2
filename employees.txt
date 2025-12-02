@@ -1,0 +1,2 @@
+1,admin,1234,Admin
+27558457,Cajero,9876,Cajero

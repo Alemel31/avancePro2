@@ -1,0 +1,3 @@
+P-001,Jaboncillo,15.0,20,resources/images/jaboncillo.png
+P-002,Coca Cola,12.0,49,resources/images/cocaCola.png
+P-003,Zucaritas,25.0,55,resources/images/zucaritas.png
